@@ -1,12 +1,12 @@
-.footer__list {
+.header__lang-links {
     display: flex;
     list-style-type: none;
-    padding-left: 0;
     margin: 0;
+    padding: 18px 0 0 0;
 }
 
 @media screen and (max-width: 767px) {
-    .footer__list {
-        flex-direction: column;
+    .header__lang-links {
+        padding-top: 14px;
     }
 }

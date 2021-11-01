@@ -3,13 +3,13 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 176px;
+    min-width: 176px;
     min-height: 52px;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 767px) {
     .header__logo {
-        width: 142px;
+        min-width: 142px;
         min-height: 42px;
     }
 }
